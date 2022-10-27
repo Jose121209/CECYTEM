@@ -10,7 +10,8 @@ const apiMorty = async(pagina) => {
         divItem.innerHTML = `
         <div class="card" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">LOCATION:</h5>
+          <h5 class="card-title">LOCACION:</h5>
+          <hr>
           <h6 class="card-subtitle mb-2 text-muted">${item.id}</h6>
           <p class="card-text">${item.created}</p>
           <p class="card-text">${item.dimension}</p>
